@@ -25,7 +25,7 @@
     PS C:\> .\__remediation_template(STIG-ID-WN10-AU-000500).ps1 
 #>
 
-# YOUR CODE GOES HERE# Create the registry path if it doesn't exist
+ Create the registry path if it doesn't exist
 $registryPath = "HKLM:\SOFTWARE\Policies\Microsoft\Windows\EventLog\Application"
 if (-not (Test-Path $registryPath)) {
     New-Item -Path $registryPath -Force
