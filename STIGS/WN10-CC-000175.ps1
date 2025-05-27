@@ -25,7 +25,7 @@
     PS C:\> .\__remediation_template(WN10-CC-000175).ps1 
 #>
 
-# YOUR CODE GOES HERE# Define the registry path
+ Define the registry path
 $registryPath = "HKLM:\SOFTWARE\Policies\Microsoft\Windows\AppCompat"
 
 # Create the registry key if it doesn't exist
